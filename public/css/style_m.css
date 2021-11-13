@@ -1,0 +1,655 @@
+@media screen and (max-width: 800px) {
+    html, body { letter-spacing: -0.03em; font-size: 62.5%; }
+    section, article, header, footer, nav, div, p, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dd, dt, img, a, form, input, select, option, fieldset, textarea, button, label, figure { font-size: 1.4rem; }
+
+    #header { top: 30px; width: 100%; left: 0;}
+    #header h1 a { line-height: 30px; font-size: 1.8rem;}
+
+    #main01 {
+        background-size: initial;
+        height: 820px;
+    }
+
+    #main01 .main01-contents {
+        position: absolute;
+        margin: 0 auto;
+        top: 0;
+        padding-top: 150px;
+        width: 100%;
+        left: 0;
+        right: 0;
+    }
+
+    #main01 .main01-icon-contents {
+        width: 100%;
+        height: 25%;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    #main01 .main01-pic {
+        width: 26%;
+    }
+
+    #main01 .main01-pic:first-child {
+        width: 26%;
+        margin-left: 10%;
+    }
+
+    #main01 .main01-pic:last-child {
+        margin-right: 10%;
+    }
+
+    #main01 .main01-icon {
+        margin-bottom: 15px;
+    }
+
+    #main01 .main01-pic-desc01 {
+        font-size: 1.7rem;
+        margin-bottom: 0;
+    }
+
+    #main01 .main01-pic-desc02 {
+        font-size: 2rem;
+    }
+
+    #main01 .main01-desc01 {
+        margin-top: 10%;
+        font-size: 2.5rem;
+    }
+
+    #main01 .main01-desc02 {
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+
+    #main01 .main01-move {
+        margin-top: 160px;
+        font-size: 2.5rem;
+        line-height: 70px;
+    }
+
+    #main02 {
+        padding: 12% 10%;
+    }
+
+    #main02 .main02-title01, .main02-title02 {
+        font-size: 2.5rem;
+    }
+
+    #main02 .main02-desc01, .main02-desc02 {
+        font-size: 1.5rem;
+    }
+
+    #main02 .main02-items {
+        margin-top: 50px;
+    }
+
+    #main02 .main02-item {
+        font-size: 2rem;
+        line-height: 50px;
+    }
+
+    #main03 {
+        height: 665px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #main03 .main03-titles {
+        font-size: 4rem;
+        padding-top: 0;
+        padding-left: 0;
+        margin-top: 20%;
+        margin-left: 45%;
+        margin-right: 5%;
+    }
+
+    #main03 .main03-desc {
+        font-size: 3rem;
+        line-height: 2;
+    }
+
+    #main03 .main03-footer {
+        font-size: 2rem;
+        bottom: 30px;
+        right: 27px;
+    }
+
+    #main04 .main04-contents {
+        width: 94%;
+        margin-top: 55px;
+    }
+
+    #main04 .main04-title {
+        margin-bottom: 35px;
+        font-size: 4rem;
+    }
+
+    #main04 .main04-hr {
+        margin-bottom: 23px;
+    }
+
+    #main04 .main04-desc {
+        font-size: 2rem;
+    }
+
+    #main04 .main04-list {
+        margin: 44px 5% 40px;
+        padding-left: 40px;
+        padding-top: 35px;
+        padding-bottom: 40px;
+    }
+
+    #main04 .main04-list-item-green, .main04-list-item-blue, .main04-list-item-red{
+        font-size: 2.3rem;
+        margin-bottom: 25px;
+    }
+
+    #main04 .main04-list-item-red:last-child{
+        margin-bottom: 0;
+    }
+
+    #main04 .main04-button {
+        font-size: 2rem;
+    }
+
+    #main05 .main05-contents {
+        padding: 10% 8%;
+    }
+
+    #main05 .main05-title {
+        font-size: 4rem;
+        margin-bottom: 34px;
+    }
+
+    #main05 .main05-desc {
+        font-size: 2rem;
+    }
+
+    #main05 .main05-cards {
+        margin-top: 50px;
+    }
+
+    #main05 .main05-card {
+        padding: 5% 7%;
+        margin-bottom: 25px;
+    }
+
+    #main05 .main05-card-title {
+        font-size: 2rem;
+    }
+
+    #main05 .main05-card-hr {
+        margin-bottom: 10px;
+    }
+
+    #main05 .main05-card-desc {
+        font-size: 1.8rem;
+    }
+
+    #main06 .main06-title01 {
+        font-size: 5rem;
+    }
+
+    #main06 .main06-title02 {
+        font-size: 6rem;
+    }
+
+    #main06 .main06-card {
+        margin: 50px 5%;
+    }
+
+    #main06 .main06-card-title {
+        font-size: 5rem;
+    }
+
+    #main06 .main06-card-img {
+        margin-bottom: 50px;
+    }
+
+    #main06 .main06-card-info {
+        font-size: 4rem;
+    }
+
+    #main06 .main06-card-desc01 {
+        font-size: 3rem;
+        margin-bottom: 80px;
+    }
+
+    #main06 .main06-card-desc02 {
+        font-size: 3.5rem;
+    }
+
+    #main06 .main06-card-desc03 {
+        font-size: 4rem;
+    }
+
+    #main07 .main07-contents {
+        padding: 5% 10%;
+    }
+
+    #main07 .main07-title .main07-title01 {
+        font-size: 5rem;
+    }
+
+    #main07 .main07-title .main07-title02 {
+        font-size: 6rem;
+    }
+
+    #main07 .main07-title {
+        margin-bottom: 35px;
+    }
+
+    #main07 .main07-title {
+        margin-bottom: 60px;
+    }
+
+    #main07 .main07-card-num {
+        font-size: 3rem;
+        padding: 2.1%;
+        margin-top: 2.2%;
+    }
+
+    #main07 .main07-card-text {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    #main07 .main07-button {
+        margin-top: 30px;
+        font-size: 2rem;
+    }
+
+    #main08 {
+        height: 1253px;
+    }
+
+    #main08 .form_wrap {
+        margin-left: 6%;
+        margin-right: 6%;
+    }
+
+    #main08 .main08-title01 {
+        font-size: 4.5rem;
+    }
+
+    #main08 .main08-title02 {
+        font-size: 6.5rem;
+    }
+
+    #main08 .main08-form-item {
+        margin-bottom: 25px;
+    }
+
+    #main08 .main08-form-label {
+        font-size: 3rem;
+    }
+
+    input, select {
+        padding: 10px;
+        font-size: 2.5rem;
+    }
+
+    #main08 .main08-form-input-comm {
+        height: 56px;
+    }
+
+    #main08 h6 {
+        bottom: 15px;
+        font-size: 2.5rem;
+    }
+
+    #main08 .ch_label {
+        height: 56px;
+        font-size: 2.5rem;
+        padding: 3.5%;
+    }
+
+    #main08 .submit {
+        font-size: 2.3rem;
+    }
+
+    #main08 .set_agree {
+        margin-top: 50px;
+        font-size: 2.5rem;
+    }
+
+    #main08 .ip_comm[name="tel1"] {
+        padding: 16px;
+    }
+
+    input, select {
+        border-radius: 16px;
+    }
+
+    #main08 .ch_box {
+        border-radius: 0;
+        width: 15px;
+        height: 15px;
+    }
+
+    #main08 .secure_img {
+        margin: 0 auto;
+        display: block;
+        width: 40%;
+    }
+
+    #main08 .cert_txt {
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    #modal-content .modal-header{
+        height:40px;
+        padding:13px;
+    }
+
+    #modal-content .modal-header h4{
+        font-size: 1.8rem;
+    }
+
+    #modal-content .modal-body{
+        padding:13px;
+    }
+
+    #modal-content .modal-body .b-iframe{
+        width:500px;
+        height:400px;
+        font-size: 1.8rem;
+    }
+
+    #modal-content .b-close{
+        font-size: 2rem;
+    }
+
+    #modal-content .modal-frame-content {
+        font-size: 1.4rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #main01 {
+        background-position-x: -160px;
+    }
+
+    #main03 {
+        height: 350px;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #main03 .main03-titles {
+        font-size: 2.8rem;
+        padding-top: 0;
+        padding-left: 0;
+    }
+
+    #main03 .main03-desc {
+        font-size: 1.6rem;
+        line-height: 0.6;
+        margin-top: 10px;
+    }
+
+    #main03 .main03-footer {
+        font-size: 1.5rem;
+    }
+
+    #main04 .main04-title {
+        margin-bottom: 35px;
+        font-size: 2.5rem;
+    }
+
+    #main04 .main04-desc {
+        font-size: 1.4rem;
+    }
+
+    #main04 .main04-list-item-img {
+        margin-right: 8px;
+        width: 14px;
+    }
+
+    #main04 .main04-list {
+        padding-left: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #main04 .main04-list-item-green, .main04-list-item-blue, .main04-list-item-red{
+        font-size: 1.2rem;
+    }
+
+    #main04 .main04-list-item-green {
+        font-size: 1.5rem;
+    }
+
+    #main04 .main04-button {
+        font-size: 1.5rem;
+        padding: 26px 60px;
+    }
+
+    #main05 .main05-contents {
+        padding: 10% 5%;
+    }
+
+    #main05 .main05-title {
+        font-size: 2.7rem;
+        margin-bottom: 30px;
+    }
+
+    #main05 .main05-desc {
+        font-size: 1.4rem;
+    }
+
+    #main05 .main05-card {
+        padding: 3% 4%;
+    }
+
+    #main05 .main05-card-title {
+        font-size: 1.7rem;
+        margin-bottom: 15px;
+    }
+
+    #main05 .main05-card-desc {
+        font-size: 1.2rem;
+        margin-bottom: 5px;
+    }
+
+    #main07 .main07-title {
+        margin-bottom: 35px;
+    }
+
+    #main07 .main07-title .main07-title01 {
+        font-size: 2.5rem;
+    }
+
+    #main07 .main07-title .main07-title02 {
+        font-size: 3rem;
+    }
+
+    #main07 .main07-card-num {
+        font-size: 2rem;
+        padding: 2.1%;
+        margin-top: 2.2%;
+    }
+
+    #main07 .main07-card-text {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+    }
+
+    #main07 .main07-button {
+        margin-top: 25px;
+        font-size: 1.5rem;
+        padding: 26px 60px;
+    }
+
+    #main08 .main08-title01 {
+        font-size: 2.8rem;
+    }
+
+    #main08 .main08-title02 {
+        font-size: 4rem;
+    }
+
+    #main08 .main08-form-label {
+        font-size: 2rem;
+    }
+
+    input, select {
+        padding: 5px;
+        font-size: 1.5rem;
+    }
+
+    #main08 .main08-form-input-comm {
+        height: 48px;
+    }
+
+    #main08 h6 {
+        bottom: 15px;
+        font-size: 1.5rem;
+    }
+
+    #main08 .ch_label {
+        height: 48px;
+        font-size: 2rem;
+        padding: 3.5%;
+    }
+
+    #main08 .submit {
+        font-size: 1.5rem;
+    }
+
+    #main06 .main06-title {
+        padding-top: 50px;
+    }
+
+    #main06 .main06-title01 {
+        font-size: 4rem;
+    }
+
+    #main06 .main06-title02 {
+        font-size: 5rem;
+    }
+
+    #main06 .main06-card-title {
+        font-size: 3.5rem;
+    }
+
+    #main06 .main06-card-img {
+        margin-bottom: 30px;
+    }
+
+    #main06 .main06-card-info {
+        font-size: 2.4rem;
+    }
+
+    #main06 .main06-card-desc01 {
+        font-size: 1.8rem;
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    #main06 .main06-card-desc02 {
+        font-size: 2rem;
+    }
+
+    #main06 .main06-card-desc03 {
+        font-size: 2.3rem;
+        margin-bottom: 40px;
+    }
+
+    #main07 .main07-contents {
+        padding: 5% 10%;
+    }
+
+    input, select {
+        border-radius: 13px;
+    }
+
+    #main08 .ch_label {
+        height: 40px;
+        font-size: 1.8rem;
+        border-radius: 13px;
+    }
+
+    #main08 {
+        height: 1000px;
+    }
+
+    #main08 .main08-title {
+        padding-top: 40px;
+        margin-bottom: 25px;
+    }
+
+    #main08 .main08-title01 {
+        font-size: 2.7rem;
+    }
+
+    #main08 .main08-title02 {
+        font-size: 4rem;
+    }
+
+    #main08 .main08-form-item {
+        margin-bottom: 20px;
+    }
+
+    #main08 .main08-form-label {
+        font-size: 1.8rem;
+    }
+
+    #main08 .main08-form-input-comm {
+        height: 45px;
+    }
+
+    #main08 h6 {
+        font-size: 2rem;
+    }
+
+    #main08 .ip_comm[name="tel1"] {
+        padding: 9px;
+    }
+
+    #main08 .ch_box {
+        border-radius: 0;
+        width: 11px;
+        height: 11px;
+    }
+
+    #main08 .secure_img {
+        margin: 0 auto;
+        display: block;
+        width: 40%;
+    }
+
+    #main08 .cert_txt {
+        margin-bottom: 20px;
+        font-size: 13px;
+    }
+
+    #modal-content .modal-header{
+        height: 35px;
+        padding: 10px;
+    }
+
+    #modal-content .modal-header h4{
+        font-size: 1.5rem;
+    }
+
+    #modal-content .modal-body{
+        padding:10px;
+    }
+
+    #modal-content .modal-body .b-iframe{
+        width:450px;
+        height: 430px;
+    }
+
+    #modal-content .modal-frame-content {
+        font-size: 1.1rem;
+    }
+
+    #modal-content .b-close{
+        font-size: 1.8rem;
+    }
+}
