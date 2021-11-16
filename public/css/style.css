@@ -563,7 +563,6 @@ body {
 }
 
 #main08 {
-    height: 1828px;
     position: relative;
 }
 
@@ -772,6 +771,25 @@ input, select {
     cursor:pointer;
     opacity:.5;
     filter:alpha(opacity=50)
+}
+
+#footer {
+    position: absolute;
+    margin-top: 50px;
+    font-size: 25px;
+    background-color: #f9f9f9;
+}
+
+#footer .footer-content {
+    padding: 50px 200px;
+}
+
+#footer .explain {
+    line-height: 1.3;
+}
+
+#footer .name {
+    color: darkgray;
 }
 
 .move {
