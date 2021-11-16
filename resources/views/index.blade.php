@@ -262,7 +262,7 @@
                     개인정보는 암호화되어 안전하게 처리됩니다.<br>
                     <span>신용불량자, 연체자, 무직자는 접수 불가합니다.</span>
                 </div>
-                <form class="main08-form" method="post" action="/html/form.php" onsubmit="return form_submit(this);">
+                <form class="main08-form" method="post" action="/confirm" onsubmit="return form_submit(this);">
                     <div class="main08-form-item">
                         <label class="main08-form-label">이름</label><br/>
                         <input type="text" id="name" name="name" class="main08-form-input-comm" required>
