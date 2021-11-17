@@ -21,7 +21,7 @@ class UserController extends Controller
      */
     public function store(Request $request)
     {
-//        Log::info($request);
+        Log::info($request);
         return view('complete');
     }
 }
