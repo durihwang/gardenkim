@@ -39,9 +39,9 @@ class MemberController extends Controller
 
     /**
      * @param Request $request
-     * @return Application
+     * @return Application|\Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
      */
-    public function store(Request $request): Application
+    public function store(Request $request)
     {
         $phone = $request->get('tel1') . "-" . $request->get('tel2') . "-" . $request->get('tel3');
         if ($request->get('overdue') == "있음") {
@@ -71,6 +71,6 @@ class MemberController extends Controller
             }
         );
 
-        return redirect('/complete');
+        return redirect('/compblete');
     }
 }
