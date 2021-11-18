@@ -71,6 +71,6 @@ class MemberController extends Controller
             }
         );
 
-        return redirect('/compblete');
+        return redirect('/complete');
     }
 }
