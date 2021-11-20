@@ -32,8 +32,20 @@ services:
     volumes:
       - ./:/var/www
       - ./nginx/conf.d/:/etc/nginx/conf.d/
+      - ../volumes/certbot/conf:/etc/letsencrypt
+      - ../volumes/certbot/www:/var/www/certbot
     networks:
       - app-network
+    command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
+
+  #Certbot
+  certbot:
+    image: certbot/certbot
+    container_name: certbot_service
+      volumes:
+        - ../volumes/certbot/conf:/etc/letsencrypt
+        - ../volumes/certbot/www:/var/www/certbot
+    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
 
   #MySQL Service
   db:
