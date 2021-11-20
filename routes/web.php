@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\MemberController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [\App\Http\Controllers\Controller::class, 'index']);
+Route::get('/', [MemberController::class, 'index']);
 
-Route::get('/complete', [\App\Http\Controllers\Controller::class, 'complete']);
+Route::get('/complete', [MemberController::class, 'complete']);

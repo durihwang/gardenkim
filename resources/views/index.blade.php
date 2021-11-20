@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
-    <script type="text/javascript" src="js/jquery.bpopup.min.js"></script>
+    <script type="text/javascript" src="js/jquery.bpopup.min.js"?\></script>
     <title>우리행복금융지원센터</title>
 </head>
 
@@ -29,7 +29,7 @@
             <div class="main01-contents show">
                 <div class="main01-icon-contents move">
                     <div class="main01-pic">
-                        <img src="/images/money_icon.png" class="main01-icon" alt/><br/>
+                        <img src="images/money_icon.png" class="main01-icon" alt/><br/>
                         <span class="main01-pic-desc01">
                                 최저금리
                             </span><br/>
@@ -262,7 +262,7 @@
                     개인정보는 암호화되어 안전하게 처리됩니다.<br>
                     <span>신용불량자, 연체자, 무직자는 접수 불가합니다.</span>
                 </div>
-                <form class="main08-form" method="post" action="/html/form.php" onsubmit="return form_submit(this);">
+                <form class="main08-form" method="post" action="/confirm" onsubmit="return form_submit(this);">
                     <div class="main08-form-item">
                         <label class="main08-form-label">이름</label><br/>
                         <input type="text" id="name" name="name" class="main08-form-input-comm" required>
@@ -393,9 +393,33 @@
                 <br>3.대검찰청 인터넷범죄수사센터 (http://icic.sppo.go.kr/02-3480-3600)
                 <br>4.경찰청 사이버테러대응센터 (www.ctrc.go.kr/02-392-0330)
             </p>
-        </div>
+        </div>`
     </div>
 </div>
+<footer id="footer">
+    <div class="footer-content">
+        <p class="explain">
+            대출금리 : 연~20%이내(담보대출에 한해 심사기준에 따라 차등적용)
+            <br>연체이율 : 연~20%이내 대출중개수수료 없음 중개수수료를 요구하거나
+            <br>받는 것은 불법으로 대출과 관련된 일체 수수료를 받지 않습니다.
+            <br>취급수수료 등 기타부대비용 없음 / 상환방법: 원리금균등상환방식, 만기일시상환방식 이자 외 추가비용 없음 단, 일부 담보대출상품에 한해 저당설정, 해지비용 및 조기상환수수료가 발생할수 있습니다.
+            <br>조기상환조건 : 대출실행일로 부터 1년 이내 상환시 최최 대출금 2% 적용, 단 이자와 조기상환 수수료의 합산액은 20%를 초과하지 않음.
+            <br>이 사이트에서 광고되는 상품들의 상환기간은 모두 60일 이상 이며 최장 상환기간 120개월 미만 입니다. 대출 총비용 예시는 다음과 같습니다.
+            <br>1,000,000원을 12개월 동안 이자20%, 최대이자율 20%로 대출할시 총 상환금액은 1,111,614원 입니다.(대출상품에 따라 달라질 수 있습니다.)
+            <br><br>
+        </p>
+        <p class="name">
+            사이트명 : 우리행복금융지원센터
+            <br>상호명 : 우리파트너스 컨설팅
+            <br>대표자 : 김정원
+            <br>사업자번호 : 408-32-53527
+            <br>소재지: 경기도 의정부시 청사로 45 7층 702-106호
+            <br>대표번호: 031-853-8863
+
+            <br>Copyright ⓒ 우리행복금융지원센터. All rights reserved.
+        </p>
+    </div>
+</footer>
 <script src="js/swiper.min.js"></script>
 <script src="js/common.js"></script>
 </body>

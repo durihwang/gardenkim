@@ -262,7 +262,7 @@
     }
 
     #main08 {
-        height: 1253px;
+        height: auto;
     }
 
     #main08 .form_wrap {
@@ -338,6 +338,11 @@
     #main08 .cert_txt {
         margin-bottom: 20px;
         font-size: 16px;
+    }
+
+    #footer .footer-content {
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
     #modal-content .modal-header{
@@ -574,7 +579,7 @@
     }
 
     #main08 {
-        height: 1000px;
+        height: auto;
     }
 
     #main08 .main08-title {
@@ -627,6 +632,18 @@
         font-size: 13px;
     }
 
+    #footer .footer-content {
+        padding: 15px 30px;
+    }
+
+    #footer .explain {
+        font-size: 1.1rem;
+    }
+
+    #footer .name {
+        font-size: 1.1rem;
+    }
+
     #modal-content .modal-header{
         height: 35px;
         padding: 10px;
@@ -637,7 +654,7 @@
     }
 
     #modal-content .modal-body{
-        padding:10px;
+        padding: 0.5rem;
     }
 
     #modal-content .modal-body .b-iframe{
