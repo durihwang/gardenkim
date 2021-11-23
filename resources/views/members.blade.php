@@ -28,9 +28,9 @@
         <tr>
             <th>{{$member->name}}</th>
             <th>{{$member->phone}}</th>
-            <th>{{ number_format((float)$member->insurance) }}</th>
+            <th>{{ $member->insurance }}</th>
             <th>{{ number_format((float)$member->income) }}</th>
-            <th>{{$member->loan_amount}}</th>
+            <th>{{ number_format((float)$member->loan_amount)}}</th>
             <th>{{$member->overdue}}</th>
             <th>{{$member->created_at}}</th>
         </tr>
