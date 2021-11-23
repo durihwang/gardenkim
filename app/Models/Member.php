@@ -21,6 +21,14 @@ class Member extends Model
         'overdue',
     ];
 
+    protected $dates = [
+        "created_at"
+    ];
+
+    protected $casts = [
+        'created_at' => "date:Y-m-d"
+    ];
+
     /**
      * @return MemberBuilder
      */

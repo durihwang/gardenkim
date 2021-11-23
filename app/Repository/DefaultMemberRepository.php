@@ -12,7 +12,8 @@ class DefaultMemberRepository implements MemberRepository
 
     public function find()
     {
-        // TODO: Implement find() method.
+        return Member::query()
+            ->get();
     }
 
     public function save(Member $member)
