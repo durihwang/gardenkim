@@ -35,10 +35,10 @@ class MemberController extends AdminController
         $grid->column('phone', trans('핸드폰번호'));
         $grid->column('insurance', trans('4대보험유무'));
         $grid->column('income', trans('연봉'))->display(function (){
-            return number_format($this->income)."원";
+            return number_format($this->income)."만원";
         });
         $grid->column('loan_amount', trans('총부채금액'))->display(function (){
-            return number_format($this->loan_amount)."원";
+            return number_format($this->loan_amount)."만원";
         });
         $grid->column('overdue', trans('최근연체유무'));
         $grid->column('created_at', trans('등록일자'))->display(function (){
