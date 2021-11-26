@@ -6,6 +6,16 @@
     <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="js/jquery.bpopup.min.js"?\></script>
     <title>우리행복금융지원센터</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-213396273-1">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-213396273-1');
+    </script>
 </head>
 
 <body>
@@ -403,7 +413,7 @@
             <br>연체이율 : 연~20%이내 대출중개수수료 없음 중개수수료를 요구하거나
             <br>받는 것은 불법으로 대출과 관련된 일체 수수료를 받지 않습니다.
             <br>취급수수료 등 기타부대비용 없음 / 상환방법: 원리금균등상환방식, 만기일시상환방식 이자 외 추가비용 없음 단, 일부 담보대출상품에 한해 저당설정, 해지비용 및 조기상환수수료가 발생할수 있습니다.
-            <br>조기상환조건 : 대출실행일로 부터 1년 이내 상환시 최최 대출금 2% 적용, 단 이자와 조기상환 수수료의 합산액은 20%를 초과하지 않음.
+            <br>조기상환조건 : 대출실행일로 부터 1년 이내 상환시 최초 대출금 2% 적용, 단 이자와 조기상환 수수료의 합산액은 20%를 초과하지 않음.
             <br>이 사이트에서 광고되는 상품들의 상환기간은 모두 60일 이상 이며 최장 상환기간 120개월 미만 입니다. 대출 총비용 예시는 다음과 같습니다.
             <br>1,000,000원을 12개월 동안 이자20%, 최대이자율 20%로 대출할시 총 상환금액은 1,111,614원 입니다.(대출상품에 따라 달라질 수 있습니다.)
             <br><br>

@@ -45,12 +45,4 @@ class HomeController extends Controller
                 });
             });
     }
-
-    public function getMembers()
-    {
-        /** @var Collection $collection */
-        $collection = $this->member_repository->find();
-        $response['members'] = $collection;
-        return view('members', $response);
-    }
 }

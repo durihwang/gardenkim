@@ -13,6 +13,6 @@ use Illuminate\Routing\Router;
 
     $router->get('/', 'HomeController@index')->name('home');
 
-    $router->get('/members', 'HomeController@getMembers');
+    $router->resource('members', 'MemberController')->names('admin.auth.users');
 
 });
