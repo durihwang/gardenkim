@@ -30,18 +30,18 @@ class MemberController extends AdminController
     {
         $grid = new Grid(new Member());
 
-        $grid->column('name', trans('name'));
-        $grid->column('phone', trans('phone'));
-        $grid->column('insurance', trans('insurance'));
-        $grid->column('income', trans('income'))->display(function (){
+        $grid->column('name', trans('이름'));
+        $grid->column('phone', trans('핸드폰번호'));
+        $grid->column('insurance', trans('4대보험유무'));
+        $grid->column('income', trans('연봉'))->display(function (){
             return number_format($this->income);
         });
-        $grid->column('loan_amount', trans('loan_amount'))->display(function (){
+        $grid->column('loan_amount', trans('총부채금액'))->display(function (){
             return number_format($this->loan_amount);
         });
-        $grid->column('overdue', trans('overdue'));
-        $grid->column('created_at', trans('admin.created_at'));
-        $grid->column('updated_at', trans('admin.updated_at'));
+        $grid->column('overdue', trans('최근연체유무'));
+        $grid->column('created_at', trans('등록일자'));
+        $grid->column('updated_at', trans('변경일자'));
 
         return $grid;
     }

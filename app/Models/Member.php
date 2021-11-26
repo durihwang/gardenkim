@@ -22,12 +22,13 @@ class Member extends Model
     ];
 
     protected $dates = [
-        "created_at"
+        "created_at",
+        "updated_at",
     ];
 
     protected $casts = [
-        'created_at' => "date:Y-m-d",
-        'updated_at' => "date:Y-m-d",
+        'created_at' => "date:Y-m-d H:i:s",
+        'updated_at' => "date:Y-m-d H:i:s",
     ];
 
     /**
