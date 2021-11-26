@@ -21,9 +21,9 @@ services:
       - app-network
 
   #Nginx Service
-  webserver:
+  nginx:
     image: nginx:alpine
-    container_name: webserver
+    container_name: nginx
     restart: unless-stopped
     tty: true
     ports:
@@ -32,11 +32,9 @@ services:
     volumes:
       - ./:/var/www
       - ./nginx/conf.d/:/etc/nginx/conf.d/
-      - ./volumes/certbot/conf:/etc/letsencrypt
-      - ./volumes/certbot/www:/var/www/certbot
+      - ./ssl:/etc/ssl
     networks:
       - app-network
-    command: "/bin/sh -c 'while :; do sleep 6h & wait $${!}; nginx -s reload; done & nginx -g \"daemon off;\"'"
 
   #MySQL Service
   db:
@@ -56,15 +54,6 @@ services:
       - ./mysql/my.cnf:/etc/mysql/my.cnf
     networks:
       - app-network
-
-  #Certbot
-  certbot:
-    image: certbot/certbot
-    container_name: certbot_service
-    volumes:
-      - ./volumes/certbot/conf:/etc/letsencrypt
-      - ./volumes/certbot/www:/var/www/certbot
-    entrypoint: "/bin/sh -c 'trap exit TERM; while :; do certbot renew; sleep 12h & wait $${!}; done;'"
 
 #Docker Networks
 networks:
