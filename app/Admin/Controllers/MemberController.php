@@ -19,7 +19,7 @@ class MemberController extends AdminController
      */
     protected function title()
     {
-        return trans('Members');
+        return trans('member');
     }
 
     /**
@@ -29,7 +29,9 @@ class MemberController extends AdminController
      */
     protected function grid()
     {
-        $grid = new Grid(new Member());
+        $userModel = config('admin.database.member_model');
+
+        $grid = new Grid(new $userModel());
 
         $grid->column('name', trans('이름'));
         $grid->column('phone', trans('핸드폰번호'));
@@ -46,6 +48,18 @@ class MemberController extends AdminController
         });
         $grid->column('updated_at', trans('변경일자'))->display(function (){
             return date('Y-m-d H:i:s', strtotime($this->updated_at));
+        });
+
+        $grid->actions(function (Grid\Displayers\Actions $actions) {
+            if ($actions->getKey() == 1) {
+                $actions->disableDelete();
+            }
+        });
+
+        $grid->tools(function (Grid\Tools $tools) {
+            $tools->batch(function (Grid\Tools\BatchActions $actions) {
+                $actions->disableDelete();
+            });
         });
 
         return $grid;

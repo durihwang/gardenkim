@@ -1,5 +1,8 @@
 <?php
 
+use App\Models\Member;
+use Encore\Admin\Grid\Displayers\DropdownActions;
+
 return [
 
     /*
@@ -178,6 +181,9 @@ return [
         // User tables and model.
         'users_table' => 'admin_users',
         'users_model' => Encore\Admin\Auth\Database\Administrator::class,
+
+        'member_table' => 'member',
+        'member_model' => Member::class,
 
         // Role table and model.
         'roles_table' => 'admin_roles',
@@ -383,7 +389,7 @@ return [
     | The global Grid action display class.
     |--------------------------------------------------------------------------
     */
-    'grid_action_class' => \Encore\Admin\Grid\Displayers\DropdownActions::class,
+    'grid_action_class' => DropdownActions::class,
 
     /*
     |--------------------------------------------------------------------------

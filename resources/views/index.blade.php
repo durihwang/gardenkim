@@ -307,8 +307,8 @@
                             <option value="0504">0504</option>
                             <option value="0505">0505</option>
                         </select>
-                        <input type="number" pattern="\d*" id="tel2" name="tel2" maxlength="4" class="ip_comm tel nextFocus" required="">
-                        <input type="number" pattern="\d*" id="tel3" name="tel3" maxlength="4" class="ip_comm tel" required="">
+                        <input type="number" pattern="\d*" id="tel2" name="tel2" class="ip_comm tel nextFocus" required="">
+                        <input type="number" pattern="\d*" id="tel3" name="tel3" class="ip_comm tel" required="">
                     </div>
                     <div class="main08-form-item">
                         <label class="main08-form-label">4대보험 가입 유무</label><br>
