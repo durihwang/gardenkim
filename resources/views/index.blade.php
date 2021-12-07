@@ -129,7 +129,7 @@
             </div>
         </article>
 
-        <article id="main05">
+        {{--<article id="main05">
             <div class="main05-contents">
                 <div class="main05-title move">
                     <span class="main05-title-bold">근로자 채무통합 </span>
@@ -185,9 +185,9 @@
                     </ul>
                 </div>
             </div>
-        </article>
+        </article>--}}
 
-        <article id="main06">
+        {{--<article id="main06">
             <div class="main06-title move">
                 <span class="main06-title01">채무통합 후</span><br/>
                 <span class="main06-title02">이자절감사례</span>
@@ -227,7 +227,7 @@
                     </div>
                 </div>
             </div>
-        </article>
+        </article>--}}
 
         <article id="main07">
             <div class="main07-contents">
