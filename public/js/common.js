@@ -1,9 +1,3 @@
-new Swiper('.swiper-container', {
-    autoplay: {
-        delay: 3000,
-    },
-});
-
 $(document).ready(function(){
     var cont = $('#contents>article');
     $(window).scroll(function(){

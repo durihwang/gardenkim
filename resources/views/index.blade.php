@@ -23,7 +23,6 @@
 <link rel="stylesheet" href="css/fonts.css">
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="css/style_m.css">
-<link rel="stylesheet" href="css/swiper.min.css">
 
 <div id="wrapper">
     <!--haeder-->
@@ -129,106 +128,6 @@
                 <a href="#main08" class="main04-button move">가능 여부 확인하기</a>
             </div>
         </article>
-
-        {{--<article id="main05">
-            <div class="main05-contents">
-                <div class="main05-title move">
-                    <span class="main05-title-bold">근로자 채무통합 </span>
-                    <span> 왜 해야 할까?</span>
-                </div>
-                <p class="main05-desc move">어지럽게 흩어진 내 대출,  제각각 다른 월납일, 부담되는 월이자</p>
-                <p class="main05-desc move">이제는 하나로 합쳐야 합니다.</p>
-                <div>
-                    <ul class="main05-cards">
-                        <li class="main05-card move">
-                            <div>
-                                <h5 class="main05-card-title">1.<span class="highlight">고금리 채무 탈출 및 이자절감</span></h5>
-                                <hr class="main05-card-hr"/>
-                                <p class="main05-card-desc">월 수입내 부담되지 않은 상환조건으로</p>
-                                <p class="main05-card-desc">혹시 모를 연체의 가능성을 없애야 합니다.</p>
-                            </div>
-                        </li>
-                        <li class="main05-card move">
-                            <div>
-                                <h5 class="main05-card-title">2.<span class="highlight">월 납임금 감소</span></h5>
-                                <hr class="main05-card-hr"/>
-                                <p class="main05-card-desc">
-                                    대출로 인한 월 지출을 감소시켜 생활의 안정을 찾아야 합니다.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="main05-card move">
-                            <div>
-                                <h5 class="main05-card-title">3.<span class="highlight">여유자금 확보</span></h5>
-                                <hr class="main05-card-hr"/>
-                                <p class="main05-card-desc">시시각각 바뀌는 대출규제, 여유자금 확보로</p>
-                                <p class="main05-card-desc">혹시모를 목돈의 필요성을 대비하셔야 합니다.</p>
-                            </div>
-                        </li>
-                        <li class="main05-card move">
-                            <div>
-                                <h5 class="main05-card-title">4.<span class="highlight">채무건수 감소</span></h5>
-                                <hr class="main05-card-hr"/>
-                                <p class="main05-card-desc">
-                                    똑같은 1000만원의 부채, 1건과 10건의 차이는 신용상의 엄청난 차이!
-                                </p>
-                            </div>
-                        </li>
-                        <li class="main05-card move">
-                            <div>
-                                <h5 class="main05-card-title">5.<span class="highlight">신용평점 상향</span></h5>
-                                <hr class="main05-card-hr"/>
-                                <p class="main05-card-desc">
-                                    떨어진 신용상태, 채무통합만으로도 올릴 수 있습니다.
-                                </p>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </article>--}}
-
-        {{--<article id="main06">
-            <div class="main06-title move">
-                <span class="main06-title01">채무통합 후</span><br/>
-                <span class="main06-title02">이자절감사례</span>
-            </div>
-            <div class="swiper-container move">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="main06-card">
-                            <img src="images/loan_man.png" class="main06-card-img"/>
-                            <h3 class="main06-card-title">김** 고객님</h3>
-                            <p class="main06-card-info">직장인 33세 | 연봉 3200만</p>
-                            <p class="main06-card-desc01">
-                                저축은행 1000만원 13.9%<br/>
-                                저축은행 1000만원 15.7%<br/>
-                                저축은행 1500만원 16.9%<br/>
-                                카드론 500만원 16.9%<br/>
-                                카드론 500만원 17.9%<br/>
-                            </p>
-                            <p class="main06-card-desc02">채무통합 4500만원 <span class="main06-card-blue">9.9%</span> 승인</p>
-                            <p class="main06-card-desc03">월 불입금(원금+이자) <span class="main06-card-red">63만원 절감</span></p>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="main06-card">
-                            <img src="images/loan_women.png" class="main06-card-img"/>
-                            <h3 class="main06-card-title">박** 고객님</h3>
-                            <p class="main06-card-info">직장인 49세 | 연봉 4800만</p>
-                            <p class="main06-card-desc01">
-                                캐피탈 1500만원 14.9%<br/>
-                                저축은행 3000만원 17.4%<br/>
-                                카드론 500만원 16.9%<br/>
-                                대부업체 1000만원 19.9%<br/>
-                            </p>
-                            <p class="main06-card-desc02">채무통합 6000만원 <span class="main06-card-blue">11.9%</span> 승인</p>
-                            <p class="main06-card-desc03">월 불입금(원금+이자) <span class="main06-card-red">90만원 절감</span></p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </article>--}}
 
         <article id="main07">
             <div class="main07-contents">
@@ -432,7 +331,6 @@
         </p>
     </div>
 </footer>
-<script src="js/swiper.min.js"></script>
 <script src="js/common.js"></script>
 </body>
 </html>
