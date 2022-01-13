@@ -83,7 +83,7 @@
                 <span class="main02-desc01 move">금융</span>
                 <span class="main02-desc02 move">을 지원합니다.</span><br/>
                 <ul class="main02-items move">
-                    <li class="main02-item">정부지원</li>
+                    <li class="main02-item">무료상담</li>
                     <li class="main02-item">채무통합</li>
                     <li class="main02-item">추가자금</li>
                     <li class="main02-item">금리인하</li>
