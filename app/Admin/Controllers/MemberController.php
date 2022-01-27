@@ -33,6 +33,8 @@ class MemberController extends AdminController
 
         $grid = new Grid(new $userModel());
 
+        $grid->model()->orderBy('created_at', 'desc');
+
         $grid->column('name', trans('이름'));
         $grid->column('phone', trans('핸드폰번호'));
         $grid->column('insurance', trans('4대보험유무'));
@@ -61,6 +63,7 @@ class MemberController extends AdminController
                 $actions->disableDelete();
             });
         });
+
 
         return $grid;
     }
